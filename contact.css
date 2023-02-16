@@ -1,0 +1,122 @@
+html {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+    background-color: black
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+h1 {
+    color: #E7E1E2;
+}
+
+h2 {
+    color: #E7E1E2;
+}
+
+.main-content {
+    display: grid;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.main-content .packages {
+    text-decoration: underline;
+}
+
+p {
+    color: #E7E1E2;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.1rem;
+
+}
+
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    background-color: black;
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+    color: #E7E1E2;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.logo-container .logo {
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    max-width: 220px;
+}
+
+.menu-container ul {
+    display: flex;
+    padding-right: 4rem;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menu-container li {
+    margin-left: 2rem;
+}
+
+.menu-container li a {
+    text-decoration: none;
+    color: #E7E1E2;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.menu-container li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer .footer-content {
+    color: #E7E1E2;
+}
+
+.footer-content span {
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+}
+
+.instagram-link a {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.insta-logo {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 220px;
+    fill: #E7E1E2;
+}
