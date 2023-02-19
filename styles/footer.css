@@ -29,3 +29,27 @@ footer .footer-content {
     max-width: 220px;
     fill: #E7E1E2;
 }
+
+@media (max-width: 980px) {
+    footer {
+        height: 50px;
+        padding-top: 20px;
+    }
+
+    .footer-content span {
+        display: flex;
+        justify-content: end;
+        padding-right: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .insta-logo {
+        height: auto;
+        width: auto;
+        max-height: 30px;
+        max-width: 40px;
+        fill: #E7E1E2;
+    }
+}
+
+@media only screen and (max-width: 600px) {}
