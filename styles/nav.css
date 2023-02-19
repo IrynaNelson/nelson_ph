@@ -1,7 +1,11 @@
 html {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-size: 24px;
     background-color: black
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -11,16 +15,17 @@ body {
 
 /* Nav */
 
+
 .navbar {
     position: fixed;
-    width: 100%;
-    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
     color: #E7E1E2;
-    padding-right: 1.5rem;
+    width: 100%;
+    height: 70px;
+
 }
 
 .navbar .brand-title a {
@@ -30,8 +35,8 @@ body {
 
 
 .brand-title {
-    font-size: 2rem;
-    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 
@@ -50,7 +55,6 @@ body {
     color: #E7E1E2;
     padding: 1rem;
     display: block;
-    font-size: 1.5rem;
 }
 
 .navbar-links li:hover {
@@ -61,13 +65,13 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: 1.5rem;
-    right: 3rem;
+    top: 1.2rem;
+    right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    height: 30px;
-    width: 21px;
+    width: 31px;
+    height: 21px;
 }
 
 .toggle-button .bar {
@@ -80,40 +84,36 @@ body {
 @media (max-width: 980px) {
     .toggle-button {
         display: flex;
-        margin-top: 3.5rem;
-        margin-right: 2.5rem;
-        width: 70px;
-        height: 70px;
     }
 
     .navbar-links {
         display: none;
         width: 100%;
-        padding: 2rem;
+        /* padding: 2rem; */
     }
 
     .navbar {
         flex-direction: column;
-        align-items: center;
-        height: 250px;
+        align-items: flex-start;
+        /* align-items: center;
+        height: 100px;
+        display: flex; */
     }
 
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        opacity: 0.7;
+        opacity: 0.9;
+        background-color: black;
     }
 
     .navbar-links li {
         text-align: center;
-        width: 100%;
-        background-color: black;
     }
 
     .navbar-links li a {
-        font-size: 2rem;
-        padding: 4rem;
-        font-size: 4rem;
+        font-size: 1.2rem;
+        padding: 1.5rem 1rem;
     }
 
     .navbar-links.active {
@@ -121,44 +121,44 @@ body {
     }
 
     .brand-title {
-        margin-top: 4rem;
-        font-size: 4rem;
+        margin-top: .5rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
+
     .toggle-button {
         display: flex;
-        margin-right: 4rem;
     }
 
     .navbar-links {
         display: none;
         width: 100%;
-        padding: 2rem;
+        /* padding: 2rem; */
     }
 
     .navbar {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        /* align-items: center;
         height: 100px;
+        display: flex; */
     }
 
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        opacity: 0.5;
+        opacity: 0.9;
+        background-color: black;
     }
 
     .navbar-links li {
         text-align: center;
-        width: 100%;
-        background-color: black;
     }
 
     .navbar-links li a {
-        font-size: 2rem;
-        padding: 4rem;
+        font-size: 1.2rem;
+        padding: 1.5rem 1rem;
     }
 
     .navbar-links.active {
