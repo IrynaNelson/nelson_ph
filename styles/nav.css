@@ -77,24 +77,31 @@ body {
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 980px) {
     .toggle-button {
         display: flex;
+        margin-top: 3.5rem;
+        margin-right: 2.5rem;
+        width: 70px;
+        height: 70px;
     }
 
     .navbar-links {
         display: none;
         width: 100%;
+        padding: 2rem;
     }
 
     .navbar {
         flex-direction: column;
         align-items: center;
+        height: 250px;
     }
 
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        opacity: 0.7;
     }
 
     .navbar-links li {
@@ -104,7 +111,9 @@ body {
     }
 
     .navbar-links li a {
-        padding: .5rem 1rem;
+        font-size: 2rem;
+        padding: 4rem;
+        font-size: 4rem;
     }
 
     .navbar-links.active {
@@ -112,28 +121,33 @@ body {
     }
 
     .brand-title {
-        margin-top: .5rem;
+        margin-top: 4rem;
+        font-size: 4rem;
     }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 600px) {
     .toggle-button {
         display: flex;
+        margin-right: 4rem;
     }
 
     .navbar-links {
         display: none;
         width: 100%;
+        padding: 2rem;
     }
 
     .navbar {
         flex-direction: column;
         align-items: center;
+        height: 100px;
     }
 
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        opacity: 0.5;
     }
 
     .navbar-links li {
@@ -143,7 +157,8 @@ body {
     }
 
     .navbar-links li a {
-        padding: .5rem 1rem;
+        font-size: 2rem;
+        padding: 4rem;
     }
 
     .navbar-links.active {
