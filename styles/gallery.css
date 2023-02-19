@@ -1,0 +1,23 @@
+.gallery-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.gallery {
+    columns: 3;
+    width: 100%;
+    gap: 1rem;
+}
+
+.gallery img {
+    margin-top: 1rem;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    .gallery {
+        column-count: 2;
+        width: 100%;
+    }
+}

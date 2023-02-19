@@ -1,0 +1,31 @@
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+/* Footer */
+
+footer .footer-content {
+    color: #E7E1E2;
+}
+
+.footer-content span {
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+}
+
+.instagram-link a {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.insta-logo {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 220px;
+    fill: #E7E1E2;
+}
